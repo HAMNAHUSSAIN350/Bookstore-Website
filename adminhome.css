@@ -1,0 +1,91 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background: #ffffff; /* White background */
+    color: #000; /* Black text for contrast */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  /* Header Styling */
+  header {
+    background: #007bff; /* Blue header background */
+    color: #fff; /* White text in header */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Admin Dashboard Styling */
+  .admin_dashboard {
+    width: 100%;
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .admin_box_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  /* Styling for each admin box */
+  .admin_box {
+    background: #f0f0f0; /* Light gray background for admin boxes */
+    border-radius: 8px;
+    width: 280px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin_box h3 {
+    color: #333; /* Dark text for numbers */
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .admin_box p {
+    color: #777; /* Lighter text for descriptions */
+    font-size: 16px;
+  }
+  
+  /* Footer Styling */
+  footer {
+    background: #007bff; /* Blue footer background */
+    color: #fff; /* White text */
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  /* Button Styling for admin actions (optional) */
+  button {
+    background: #007bff; /* Blue button */
+    color: #fff; /* White text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background: #0056b3; /* Darker blue when hovered */
+  }
+  
