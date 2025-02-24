@@ -1,3 +1,4 @@
+/*Orders */
 .orders{
     display: flex;
     flex-direction: column;
@@ -37,3 +38,43 @@
     font-weight: 600;
     color: rgb(46, 46, 46);
   }
+  
+  .contact_us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+  }
+  .contact_us form{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    box-shadow: 2px 2px 20px gray;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact_us form h2{
+    font-size: 1.5rem;
+    color: #003049;
+    text-align: center;
+  
+  }
+  .contact_us form input,
+  .contact_us form textarea,
+  .contact_us form select{
+    width: 80%;
+    padding: 0.2rem;
+    font-size: 1rem;
+    box-shadow: 2px 2px 10px gray;
+    border: none;
+  }
+  .contact_us form input:focus,
+  .contact_us form textarea:focus,
+  .contact_us form select:focus{
+    outline: none;
+  }
+  
